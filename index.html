@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Welcome</title>
+  
+  
+  
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      html,body{
+  background:#e74c3c;
+  position:relative;
+  height:100%;
+  margin:0;
+  padding:0;
+}
+.page{
+  font-family:'Lato', sans-serif;
+  diplay:block;
+  float:left;
+  position:relative;
+  overflow:hidden;
+  width:100%;
+  height:100%;
+}
+.loaded{
+  overflow-y:auto;
+}
+.main{
+  display:none;
+}
+.tl,.tr,.bl,.br{
+  diplay:block;
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:url(http://25.media.tumblr.com/f4f22b2eb234e51e3183fde267ccdc70/tumblr_n10mxm8L7u1st5lhmo1_1280.jpg) no-repeat center center fixed #000;
+  -moz-background-size:cover;
+  background-size:cover;
+}
+/* top left*/
+.tl{
+  top:0;
+  top:-50%;
+  left:-50%;
+}
+/* top right*/
+.tr{
+  top:-50%;
+  left:50%;
+}
+/* botton left*/
+.bl{
+  top:50%;
+  left:50%;
+}
+/* botton right*/
+.br{
+  top:50%;
+  left:-50%;
+}
+.enter:after,
+.enter:hover:after,
+.enter,.enter:hover{
+  -webkit-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -o-transition:all 1s ease;
+  transition:all 1s ease;
+}
+.enter{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100px;
+  height: 100px;
+  background-color: #2A2A2B;
+  background-color: rgba(17, 17, 17, 0.67);
+  z-index: 999999999;
+  text-align: center;
+  line-height: 100px;
+  text-decoration: none;
+  color: #FFF;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 0 15px 2px #000;
+  -moz-box-shadow: 0 0 15px 2px #000;
+  box-shadow: 0 0 15px 2px #000;
+}
+.enter:after {
+  content: " ";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  background-color: #3FB4BE;
+  background-color: rgba(0, 235, 255, 0.44);
+  z-index: 999999999;
+  text-align: center;
+  line-height: 80px;
+  text-decoration: none;
+  color: #FFF;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0 0 15px 2px #000;
+  -moz-box-shadow: 0 0 15px 2px #000;
+  box-shadow: 0 0 15px 2px #000;
+}
+.enter:hover{
+  -webkit-box-shadow:0 0 4px 4px #3FB4BE;
+  -moz-box-shadow:0 0 4px 4px #3FB4BE;
+  box-shadow:0 0 4px 4px #3FB4BE;
+}
+.enter:hover:after{
+  background-color: #2A2A2B;
+  background-color: rgba(17, 17, 17, 0.67);
+}
+.hideThis{
+  -webkit-box-shadow:0 0 0 0 #3FB4BE;
+  -moz-box-shadow:0 0 0 0 #3FB4BE;
+  box-shadow:0 0 0 0 #3FB4BE;
+  opacity:0;
+  z-index:-5;
+}
+/* Layout
+============================== */
+
+*, *:before, *:after{
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
+::-webkit-scrollbar{
+  background-color:#000;
+  width:5px;
+  height:5px;
+}
+::-webkit-scrollbar-thumb{
+  height:10px;
+  background-color:#333;
+}
+html{
+  font:100%/1.5 "lato", sans-serif;
+  font-weight:400;
+  text-rendering:optimizeLegibility;
+  -webkit-font-smoothing:antialiased;
+}
+@media (min-width: 40rem){
+  html{
+    font-size:112%;
+  }
+}
+@media (min-width: 64rem){
+  html{
+    font-size:120%;
+  }
+}
+body{
+  background-color:#fff;
+  color:#555;
+}
+.container{
+  margin:0 auto;
+  max-width:53rem;
+  width:90%;
+}
+/* Header
+================================== */
+
+body{
+  background:url(http://25.media.tumblr.com/f4f22b2eb234e51e3183fde267ccdc70/tumblr_n10mxm8L7u1st5lhmo1_1280.jpg) no-repeat center center fixed #ecf0f1;
+  text-align:center;
+  -moz-background-size:cover;
+  background-size:cover;
+}
+.intro{
+  margin:2rem 0;
+}
+@media (min-width: 40rem){
+  .intro{
+    margin:4rem 0;
+  }
+}
+header h1{
+  color:#fff;
+  padding:0.4rem 0.6rem;
+  display:inline-block;
+  font-size:1.8rem;
+  text-transform:uppercase;
+  margin-bottom:2rem;
+}
+header p{
+  color:white;
+  margin:0 auto;
+}
+/* Section
+========================================= */
+.words{
+  background:white;
+}
+section{
+  border-top:1px solid #eee;
+  padding:2rem 0;
+}
+section:first-of-type{
+  border-top:none;
+}
+@media (min-width: 40rem){
+  section{
+    padding:4rem 0;
+  }
+}
+/* Clearfix by Nicolas Gallagher
+========================================== */
+
+.clearfix:before,
+.clearfix:after{
+  content:" ";
+  display:table;
+}
+.clearfix:after{
+  clear:both;
+}
+.clearfix{
+  *zoom:1;
+}
+
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <!-- google fonts lato -->
+<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+
+
+<a href="#fake" class="enter">ENTER</a>
+<div class="page">
+  <div class="main">
+
+
+
+    <!--  Content of page -->
+    <header class="clearfix">
+      <div class='container'>
+        <div class="intro">
+          <a href="/grid"><h1>WELCOME</h1></a>
+          <p>To my World</p>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="words">
+      <div class="container">
+        <h3>Et quidem, inquit, vehementer errat;</h3>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Non enim iam stirpis bonum quaeret, sed animalis. Primum divisit ineleganter; <a href='http://loripsum.net/' target='_blank'>Sic consequentibus vestris sublatis prima tolluntur.</a> Consequentia exquirere, quoad sit id, quod volumus, effectum. Duo Reges: constructio interrete. Pisone in eo gymnasio, quod Ptolomaeum vocatur, unaque nobiscum Q. Callipho ad virtutem nihil adiunxit nisi voluptatem, Diodorus vacuitatem doloris. Quorum sine causa fieri nihil putandum est. Praeteritis, inquit, gaudeo. Quod si ita se habeat, non possit beatam praestare vitam sapientia. </p>
+      </section>
+
+      <section  class="clearfix"></section>
+
+      <section class="words">
+        <div class="container">
+          <h3>Quid est enim aliud esse versutum?</h3>
+
+          <p>Ostendit pedes et pectus. Omnis enim est natura diligens sui. <a href='http://loripsum.net/' target='_blank'>Cur id non ita fit?</a> <a href='http://loripsum.net/' target='_blank'>Videamus animi partes, quarum est conspectus illustrior;</a> Collige omnia, quae soletis: Praesidium amicorum. Haec et tu ita posuisti, et verba vestra sunt. An est aliquid per se ipsum flagitiosum, etiamsi nulla comitetur infamia? <a href='http://loripsum.net/' target='_blank'>Nos commodius agimus.</a> </p>
+
+          <h2>Quid ei reliquisti, nisi te, quoquo modo loqueretur, intellegere, quid diceret?</h2>
+
+          <p>Quo plebiscito decreta a senatu est consuli quaestio Cn. Hoc etsi multimodis reprehendi potest, tamen accipio, quod dant. Quare obscurentur etiam haec, quae secundum naturam esse dicimus, in vita beata; Iis igitur est difficilius satis facere, qui se Latina scripta dicunt contemnere. Ita multa dicunt, quae vix intellegam. Quo tandem modo? Non semper, inquam; Quae qui non vident, nihil umquam magnum ac cognitione dignum amaverunt. Cur fortior sit, si illud, quod tute concedis, asperum et vix ferendum putabit? </p>
+
+
+          <blockquote cite='http://loripsum.net'>
+            Te autem hortamur omnes, currentem quidem, ut spero, ut eos, quos novisse vis, imitari etiam velis.
+          </blockquote>
+        </section>    
+
+        <section  class="clearfix"></section>
+
+        <section class="words">
+          <div class="container">
+            <p>Quasi vero, inquit, perpetua oratio rhetorum solum, non etiam philosophorum sit. Sed tamen est aliquid, quod nobis non liceat, liceat illis. Si enim ad populum me vocas, eum. Quod autem ratione actum est, id officium appellamus. Apud ceteros autem philosophos, qui quaesivit aliquid, tacet; Longum est enim ad omnia respondere, quae a te dicta sunt. </p>
+
+            <p>Vitiosum est enim in dividendo partem in genere numerare. Eaedem res maneant alio modo. Quae in controversiam veniunt, de iis, si placet, disseramus. Videsne quam sit magna dissensio? Quos quidem tibi studiose et diligenter tractandos magnopere censeo. Si quicquam extra virtutem habeatur in bonis. Sed nimis multa. </p>
+
+          </div>
+        </section>
+        <!-- / Content of page -->
+
+
+      </div>
+    </div>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>
