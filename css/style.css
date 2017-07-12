@@ -1,225 +1,39 @@
-html,body{
-  background:#e74c3c;
-  position:relative;
-  height:100%;
-  margin:0;
-  padding:0;
+.landing-page{
+    background-color: rgba(0,0,0,.6);
+    background-image: url(../images/allahbad.jpg);
+    background-blend-mode: multiply;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    color: #999;
 }
-.page{
-  font-family:'Lato', sans-serif;
-  diplay:block;
-  float:left;
-  position:relative;
-  overflow:hidden;
-  width:100%;
-  height:100%;
+.title-name{
+    left: 0;
+    position: absolute;
+    top: 50%;
+    width: 100%;
 }
-.loaded{
-  overflow-y:auto;
-}
-.main{
-  display:none;
-}
-.tl,.tr,.bl,.br{
-  diplay:block;
-  position:absolute;
-  width:100%;
-  height:100%;
-  background:url(http://25.media.tumblr.com/f4f22b2eb234e51e3183fde267ccdc70/tumblr_n10mxm8L7u1st5lhmo1_1280.jpg) no-repeat center center fixed #000;
-  -moz-background-size:cover;
-  background-size:cover;
-}
-/* top left*/
-.tl{
-  top:0;
-  top:-50%;
-  left:-50%;
-}
-/* top right*/
-.tr{
-  top:-50%;
-  left:50%;
-}
-/* botton left*/
-.bl{
-  top:50%;
-  left:50%;
-}
-/* botton right*/
-.br{
-  top:50%;
-  left:-50%;
-}
-.enter:after,
-.enter:hover:after,
-.enter,.enter:hover{
-  -webkit-transition:all 1s ease;
-  -moz-transition:all 1s ease;
-  -o-transition:all 1s ease;
-  transition:all 1s ease;
-}
-.enter{
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 100px;
-  height: 100px;
-  background-color: #2A2A2B;
-  background-color: rgba(17, 17, 17, 0.67);
-  z-index: 999999999;
+.title-name h2{
+  font-size: 200%;
   text-align: center;
-  line-height: 100px;
-  text-decoration: none;
-  color: #FFF;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  border-radius: 100%;
-  -webkit-box-shadow: 0 0 15px 2px #000;
-  -moz-box-shadow: 0 0 15px 2px #000;
-  box-shadow: 0 0 15px 2px #000;
+  color: white;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 300;
 }
-.enter:after {
-  content: " ";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
-  width: 80px;
-  height: 80px;
-  background-color: #3FB4BE;
-  background-color: rgba(0, 235, 255, 0.44);
-  z-index: 999999999;
+.title-name h4{
+  font-size: 100%;
   text-align: center;
-  line-height: 80px;
-  text-decoration: none;
-  color: #FFF;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  border-radius: 100%;
-  -webkit-box-shadow: 0 0 15px 2px #000;
-  -moz-box-shadow: 0 0 15px 2px #000;
-  box-shadow: 0 0 15px 2px #000;
+  color: white;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font-weight: 300;
 }
-.enter:hover{
-  -webkit-box-shadow:0 0 4px 4px #3FB4BE;
-  -moz-box-shadow:0 0 4px 4px #3FB4BE;
-  box-shadow:0 0 4px 4px #3FB4BE;
+.title-name hr{
+  width: 25%;
 }
-.enter:hover:after{
-  background-color: #2A2A2B;
-  background-color: rgba(17, 17, 17, 0.67);
-}
-.hideThis{
-  -webkit-box-shadow:0 0 0 0 #3FB4BE;
-  -moz-box-shadow:0 0 0 0 #3FB4BE;
-  box-shadow:0 0 0 0 #3FB4BE;
-  opacity:0;
-  z-index:-5;
-}
-/* Layout
-============================== */
-
-*, *:before, *:after{
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
-  box-sizing:border-box;
-}
-::-webkit-scrollbar{
-  background-color:#000;
-  width:5px;
-  height:5px;
-}
-::-webkit-scrollbar-thumb{
-  height:10px;
-  background-color:#333;
-}
-html{
-  font:100%/1.5 "lato", sans-serif;
-  font-weight:400;
-  text-rendering:optimizeLegibility;
-  -webkit-font-smoothing:antialiased;
-}
-@media (min-width: 40rem){
-  html{
-    font-size:112%;
-  }
-}
-@media (min-width: 64rem){
-  html{
-    font-size:120%;
-  }
-}
-body{
+.about-me{
   background-color:#fff;
-  color:#555;
+  color: #333;
 }
-.container{
-  margin:0 auto;
-  max-width:53rem;
-  width:90%;
-}
-/* Header
-================================== */
-
-body{
-  background:url(http://25.media.tumblr.com/f4f22b2eb234e51e3183fde267ccdc70/tumblr_n10mxm8L7u1st5lhmo1_1280.jpg) no-repeat center center fixed #ecf0f1;
-  text-align:center;
-  -moz-background-size:cover;
-  background-size:cover;
-}
-.intro{
-  margin:2rem 0;
-}
-@media (min-width: 40rem){
-  .intro{
-    margin:4rem 0;
-  }
-}
-header h1{
-  color:#fff;
-  padding:0.4rem 0.6rem;
-  display:inline-block;
-  font-size:1.8rem;
-  text-transform:uppercase;
-  margin-bottom:2rem;
-}
-header p{
-  color:white;
-  margin:0 auto;
-}
-/* Section
-========================================= */
-.words{
-  background:white;
-}
-section{
-  border-top:1px solid #eee;
-  padding:2rem 0;
-}
-section:first-of-type{
-  border-top:none;
-}
-@media (min-width: 40rem){
-  section{
-    padding:4rem 0;
-  }
-}
-/* Clearfix by Nicolas Gallagher
-========================================== */
-
-.clearfix:before,
-.clearfix:after{
-  content:" ";
-  display:table;
-}
-.clearfix:after{
-  clear:both;
-}
-.clearfix{
-  *zoom:1;
-}
+/* social buttons */
