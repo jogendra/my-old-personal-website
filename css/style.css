@@ -36,4 +36,60 @@
   background-color:#fff;
   color: #333;
 }
-/* social buttons */
+
+/* Notice */
+.notice{
+  color:red;text-align:center;border:1px solid red;width:25%;margin:10px auto;padding:5px;border-radius:5px
+}
+@media screen and (max-width:768px){
+  .notice{
+    color:red;text-align:center;border:1px solid red;width:70%;margin:10px auto;padding:5px;border-radius:5px
+  }
+}
+.disabledLink{
+  cursor: not-allowed;
+}
+
+.open > .dropdown-menu {
+  -webkit-transform: scale(1, 1);
+  transform: scale(1, 1);
+  opacity:1;
+}
+
+.dropdown-menu {
+  opacity:.3;
+  -webkit-transform-origin: top;
+  transform-origin: top;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-transform: scale(1, 0);
+  transition: all 0.3s linear;
+  -webkit-transition: all 0.3s linear;
+}
+.caret-up {
+    width: 0;
+    height: 0;
+    border-left: 4px solid rgba(0, 0, 0, 0);
+    border-right: 4px solid rgba(0, 0, 0, 0);
+    border-bottom: 4px solid;
+
+    display: inline-block;
+    margin-left: 2px;
+    vertical-align: middle;
+}
+
+/* Social Icons*/
+.social-icons{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.social-icons a{
+    /*padding: 0.6%;*/
+    margin: 1%;
+    color: #999;
+}
+.social-icons a:hover{
+    color: #fff;
+    transition: 0.5s;
+}

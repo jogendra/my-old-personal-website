@@ -22,6 +22,7 @@
 
   <!-- CSS files -->
   <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/style.css" rel="stylesheet">
 
 </head>
@@ -30,15 +31,22 @@
   <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
       <a class="navbar-brand" style="display: -webkit-inline-box;" href="#">
         <img src="images/icons8-Chrome/icons8-Chrome_100.png" title="External Link" height="100%">
         <span>Konfire</span></a>
     </div>
+  <div class="collapse navbar-collapse" id="myNavbar">
     <ul class="nav navbar-nav navbar-right">
-      <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+      <li><a href="#" class="disabledLink"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#" class="disabledLink"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
     </ul>
-    <form class="navbar-form navbar-right">
+    <!-- Search button -->
+    <!-- <form class="navbar-form navbar-right">
       <div class="input-group">
         <input type="text" class="form-control" placeholder="Search">
         <div class="input-group-btn">
@@ -47,7 +55,7 @@
           </button>
         </div>
       </div>
-    </form>
+    </form> -->
     <ul class="nav navbar-nav navbar-right">
       <li class="active"><a href="#">Home</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
@@ -59,16 +67,25 @@
       </li>
       <li><a href="#">Page 2</a></li>
     </ul>
-
+</div>
   </div>
 </nav>
 <!-- Landing page container -->
 <div class="container landing-page" style="margin-top:50px">
-  <h1 style="color:red;text-align:center;border:1px solid red;width:25%;margin:10px auto;padding:5px;border-radius:5px">En Contruction</h1>
+  <h1 class="notice">En Contruction</h1>
   <div class="title-name"><h2>Jogendra Singh</h2>
   <hr>
   <h4>Reves Vivants :)</h4>
   <div>
+</div>
+<div class="social-icons">
+<a href="https://www.facebook.com/jogendra.singh24" target="_blank"><i class="fa fa-facebook fa-3x"></i></a>
+<a href="https://github.com/imjog" target="_blank"><i class="fa fa-github fa-3x"></i></a>
+<a href="https://www.instagram.com/jogendra.singh_/" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
+<a href="https://www.linkedin.com/in/jogendrasingh24/" target="_blank"><i class="fa fa-linkedin fa-3x"></i></a>
+<a href="https://twitter.com/imjog24" target="_blank"><i class="fa fa-twitter fa-3x"></i></a>
+<a href="https://www.quora.com/profile/Jogendra-Singh-63" target="_blank"><i class="fa fa-quora fa-3x"></i></a>
+<a href="https://medium.com/@imjog" target="_blank"><i class="fa fa-medium fa-3x"></i></a>
 </div>
 </div>
 </div>
@@ -79,5 +96,20 @@
   <!-- Javascript files -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="bootstrap/js/bootstrap.min.js"></script>
+  <script>
+  $(function(){
+  $(".dropdown").hover(
+          function() {
+              $('.dropdown-menu', this).stop( true, true ).fadeIn("fast");
+              $(this).toggleClass('open');
+              $('b', this).toggleClass("caret caret-up");
+          },
+          function() {
+              $('.dropdown-menu', this).stop( true, true ).fadeOut("fast");
+              $(this).toggleClass('open');
+              $('b', this).toggleClass("caret caret-up");
+          });
+  });
+  </script>
 </body>
 </html>
