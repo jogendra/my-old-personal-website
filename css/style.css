@@ -108,7 +108,7 @@ body{
 .about-me{
   background-color:#fff;
   color: #333;
-  height: 100vh;
+  /*height: 100vh;*/
   width: 100%;
   background-color: rgba(0,0,0,.9);
   background-image: url(../images/iosdeveloper.png);
@@ -125,8 +125,9 @@ body{
   text-transform: uppercase;
     letter-spacing: 1px;
 }
-.fa-angle-double-down{
+.fa-angle-double-down, .fa-terminal{
   margin: 5% auto;
+  margin-bottom: 1%;
       display: table;
       color: white;
 }
@@ -141,4 +142,22 @@ font-weight: 300;
 }
 .section-hr{
   border-top: 1px solid rgba(255,255,255,0.4);
+}
+.about-me-description{
+  color: #999;
+    letter-spacing: 2px;
+    font-weight: 300;
+    padding: 3%;
+    margin: auto;
+    display: table;
+    width: 100%;
+    font-size: 110%;
+    border: 1px solid rgba(255,255,255,.7);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+@media screen and (min-width:768px){
+  .about-me-description{
+    width: 50%;
+  }
 }
