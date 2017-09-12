@@ -42,15 +42,6 @@ body{
   width: 25%;
 }
 
-/* Notice */
-.notice{
-  color:red;text-align:center;border:1px solid red;width:25%;margin:10px auto;padding:5px;border-radius:5px
-}
-@media screen and (max-width:768px){
-  .notice{
-    color:red;text-align:center;border:1px solid red;width:70%;margin:10px auto;padding:5px;border-radius:5px
-  }
-}
 .disabledLink{
   cursor: not-allowed;
 }
