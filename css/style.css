@@ -125,3 +125,8 @@ body{
   text-transform: uppercase;
     letter-spacing: 1px;
 }
+.fa-angle-double-down{
+  margin: 5% auto;
+      display: table;
+      color: white;
+}

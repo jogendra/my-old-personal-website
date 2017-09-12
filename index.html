@@ -53,7 +53,7 @@
     </form> -->
     <ul class="nav navbar-nav navbar-right">
       <li class="active"><a href="#">Home</a></li>
-      <li><a href="#about-me-id">About Me</a></li>
+      <li><a href="#about-me-section">About Me</a></li>
       <li><a href="#">Blogs</a></li>
       <li><a href="#">Projects</a></li>
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Page 1 <span class="caret"></span></a>
@@ -85,10 +85,12 @@
 <a href="https://www.quora.com/profile/Jogendra-Singh-63" target="_blank"><i class="fa fa-quora fa-3x"></i></a>
 <a href="https://medium.com/@imjog" target="_blank"><i class="fa fa-medium fa-3x"></i></a>
 </div>
+<a href="#about-me-section"><i class="fa fa-angle-double-down" style="font-size:36px"></i></a>
 </div>
+
 </div>
 <!-- About me container -->
-<div class="container about-me" id="about-me-id">
+<div class="container about-me" id="about-me-section">
 </div>
 
   <!-- Javascript files -->
@@ -109,5 +111,31 @@
           });
   });
   </script>
+  <script>
+$(document).ready(function(){
+// Add smooth scrolling to all links
+$("a").on('click', function(event) {
+
+  // Make sure this.hash has a value before overriding default behavior
+  if (this.hash !== "") {
+    // Prevent default anchor click behavior
+    event.preventDefault();
+
+    // Store hash
+    var hash = this.hash;
+
+    // Using jQuery's animate() method to add smooth page scroll
+    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+    $('html, body').animate({
+      scrollTop: $(hash).offset().top
+    }, 800, function(){
+
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+    });
+  } // End if
+});
+});
+</script>
 </body>
 </html>
