@@ -31,12 +31,18 @@ body{
   font-weight: 300;
 }
 .title-name h4{
-  font-size: 100%;
+  font-size: 60%;
   text-align: center;
   color: white;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 300;
+}
+@media screen and (min-width:768px){
+  .title-name h4{
+    font-size: 100%;
+    letter-spacing: 5px;
+  }
 }
 .title-name hr{
   width: 25%;
@@ -182,4 +188,12 @@ padding: 1px;
   background-blend-mode: multiply;
   background-attachment: fixed;
   background-size: cover;
+}
+@media screen and (max-width:768px){
+  .projects{
+  background-image: url(../images/projects-bcg-mob.jpg);
+}
+.blogs{
+background-image: url(../images/blog-bcg-mob.png);
+}
 }
