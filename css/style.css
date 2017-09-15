@@ -121,7 +121,7 @@ body{
   text-transform: uppercase;
     letter-spacing: 1px;
 }
-.fa-angle-double-down, .fa-terminal{
+.fa-angle-double-down, .fa-terminal, .fa-angle-down, .fa-angle-double-up{
   margin: 3% auto;
   margin-bottom: 1%;
       display: table;
