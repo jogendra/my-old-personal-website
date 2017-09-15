@@ -97,7 +97,6 @@ body{
 }
 /* ABOUT ME SECTION */
 .about-me{
-  background-color:#fff;
   color: #333;
   /*height: 100vh;*/
   width: 100%;
@@ -151,4 +150,36 @@ font-weight: 300;
   .about-me-description{
     width: 50%;
   }
+}
+
+/* Projects section */
+.projects{
+  color: #333;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0,0,0,.7);
+  background-image: url(../images/blog-bcg.png);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.section-end-hr{
+  margin: 0;
+border: 0;
+border-top: 1px solid rgba(255,255,255,.2);
+border-bottom: 1px solid rgba(255,255,255,.2);
+padding: 1px;
+}
+
+
+/* blog section */
+.blogs{
+  color: #333;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0,0,0,.5);
+  background-image: url(../images/blog-bcg.png);
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+  background-size: cover;
 }
