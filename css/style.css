@@ -161,7 +161,7 @@ font-weight: 300;
 /* Projects section */
 .projects{
   color: #333;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-color: rgba(0,0,0,.7);
   background-image: url(../images/projects-bcg.jpg);
@@ -181,7 +181,7 @@ padding: 1px;
 /* blog section */
 .blogs{
   color: #333;
-  height: 100vh;
+  min-height: 100vh;
   width: 100%;
   background-color: rgba(0,0,0,.5);
   background-image: url(../images/blog-bcg.png);
@@ -229,4 +229,20 @@ padding: 2%;
 .skills_div span:hover{
   background: black;
   color: white;
+}
+
+/* Projects Div */
+.projects_div{
+  color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+}
+.project_subdiv{
+  width: 33.333%;
+    border: 1px solid white;
+    margin: 1%;
+    height: 300px;
+    border-radius: 5px;
 }
