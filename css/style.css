@@ -154,7 +154,7 @@ font-weight: 300;
 }
 @media screen and (min-width:768px){
   .about-me-description{
-    width: 50%;
+    width: 60%;
   }
 }
 
@@ -196,4 +196,37 @@ padding: 1px;
 .blogs{
 background-image: url(../images/blog-bcg-mob.png);
 }
+}
+
+/* Skills Div */
+.skills_div{
+  color: #999;
+  letter-spacing: 2px;
+  font-weight: 300;
+  margin: auto;
+  display: table;
+  font-size: 100%;
+  width: 100%;
+  padding-left: 25%;
+}
+.skills_div li{
+padding: 1%;
+text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 110%;
+}
+.skills_div li p{
+padding: 2%;
+}
+.skills_div span{
+      padding: 1%;
+      border: 1px solid #999;
+      margin: 1%;
+      border-radius: 5px;
+      background: rgba(255,255,255,0.2);
+      transition: 0.3s;
+}
+.skills_div span:hover{
+  background: black;
+  color: white;
 }
