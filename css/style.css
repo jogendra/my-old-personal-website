@@ -235,12 +235,12 @@ padding: 2%;
 .projects_div{
   color: white;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: center;
       width: 100%;
 }
 .project_subdiv{
-  width: 33.333%;
+    width: 100%;
     border: 1px solid white;
     margin: 1%;
     height: 300px;
@@ -249,6 +249,17 @@ padding: 2%;
     overflow: hidden;
     text-align: center;
 }
-.project_subdiv img{
-  width: 100%;
+.project_subdiv h3{
+
+}
+.project_subdiv p{
+  
+}
+@media screen and (min-width:768px){
+  .projects_div{
+flex-direction: row;
+  }
+  .project_subdiv{
+width: 33.333%;
+  }
 }
