@@ -1,6 +1,12 @@
 body{
   background-color: transparent;
 }
+a{
+  color:#fff;
+}
+a:hover{
+  color:#fff;
+}
 .landing-page{
     background-color: rgba(0,0,0,.7);
     background-image: url(../images/jogintroworkshop.JPG);
@@ -207,7 +213,11 @@ background-image: url(../images/blog-bcg-mob.png);
   display: table;
   font-size: 100%;
   width: 100%;
-  padding-left: 25%;
+}
+@media screen and (min-width:768px){
+  .skills_div{
+    padding-left: 25%;
+  }
 }
 .skills_div li{
 padding: 1%;
@@ -276,6 +286,73 @@ padding: 2%;
 flex-direction: row;
   }
   .project_subdiv{
+width: 33.333%;
+  }
+}
+
+/* Blogs Div */
+.blogs_div{
+  color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%;
+}
+.blogs_subdiv{
+    width: 100%;
+    border: 1px solid white;
+    margin: 1%;
+    height: 320px;
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.5);
+    background-blend-mode: multiply;
+    background-size: cover;
+    overflow: hidden;
+    text-align: center;
+}
+.blogs_subdiv h3{
+  text-transform: uppercase;
+      font-weight: 300;
+      letter-spacing: 4px;
+      font-size: medium;
+      padding: 1%;
+}
+.blogs_subdiv p{
+  font-weight: 300;
+      letter-spacing: 2px;
+      padding: 1%;
+}
+.blogs_subdiv a p span{
+  padding: 2%;
+    border: 1px solid;
+    border-radius: 5px;
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+.blogs_subdiv hr{
+  border: 1px solid rgba(255,255,255,0.3);
+  width: 50%;
+}
+.blogs_subdiv img{
+  height: 100px;
+width: 100px;
+border-radius: 50%;
+border: 1px solid rgba(255,255,255,0.5);
+}
+.blogs_subdiv p span{
+  padding: 1%;
+}
+.tags-div{
+  margin-top: 1%;
+}
+.fa-paperclip, .fa-calendar{
+  font-size: 20px;
+}
+@media screen and (min-width:768px){
+  .blogs_div{
+flex-direction: row;
+  }
+  .blogs_subdiv{
 width: 33.333%;
   }
 }
