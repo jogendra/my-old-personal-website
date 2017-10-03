@@ -255,11 +255,12 @@ padding: 2%;
     margin: 1%;
     height: 300px;
     border-radius: 5px;
-    background-color: rgba(0,0,0,0.5);
+    background-color: rgba(0,0,0,0.7);
     background-blend-mode: multiply;
     background-size: cover;
     overflow: hidden;
     text-align: center;
+    background-size: contain;
 }
 .project_subdiv h3{
   text-transform: uppercase;
