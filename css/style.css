@@ -273,6 +273,8 @@ padding: 2%;
   font-weight: 300;
       letter-spacing: 2px;
       padding: 2%;
+      height: 150px;
+      overflow: scroll;
 }
 .project_subdiv a p span{
   padding: 2%;
