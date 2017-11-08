@@ -62,7 +62,7 @@
   </div>
 </nav>
 <!-- Landing page container -->
-<div class="container landing-page" style="padding-top:50px" id="home-section">
+<div class="container landing-page parallax" style="padding-top:50px" id="home-section">
   <div class="title-name"><h2>Jogendra Singh</h2>
   <hr>
   <h4 class="typing-tags">Programmer | Developer | Open Source Enthusiast</h4>
@@ -81,7 +81,7 @@
 </div>
 </div>
 <!-- About me container -->
-<div class="container about-me" id="about-me-section">
+<div class="container about-me parallax" id="about-me-section">
 <h3 class="section-header">About Me</h3>
 <hr class="section-hr">
 <p class="about-me-description">
@@ -118,7 +118,7 @@ I'm available for remote work - if you would like to build something together!
 
 
 <!-- Projects container -->
-<div class="container projects" id="projects-section">
+<div class="container projects parallax" id="projects-section">
 <h3 class="section-header">Projects</h3>
 <hr class="section-hr">
 <div class="projects_div">
@@ -162,7 +162,7 @@ I'm available for remote work - if you would like to build something together!
 
 
 <!-- Blogs container -->
-<div class="container blogs" id="blogs-section">
+<div class="container blogs parallax" id="blogs-section">
 <h3 class="section-header">Blogs</h3>
 <hr class="section-hr">
 <div class="blogs_div">
@@ -295,6 +295,29 @@ $("a").on('click', function(event) {
   } // End if
 });
 });
+</script>
+<!-- Parallax Effect -->
+<script>
+$(window).scroll(function(e) {
+  parallax();
+})
+
+
+function parallax() {
+  var scroll = $(window).scrollTop();
+  var screenHeight = $(window).height();
+
+  $('.parallax').each(function() {
+    var offset = $(this).offset().top;
+    var distanceFromBottom = offset - scroll - screenHeight
+
+    if (offset > screenHeight && offset) {
+      $(this).css('background-position', 'center ' + (( distanceFromBottom  ) * 0.5) +'px');
+    } else {
+      $(this).css('background-position', 'center ' + (( -scroll ) * 0.5) + 'px');
+    }
+  })
+}
 </script>
 </body>
 </html>
