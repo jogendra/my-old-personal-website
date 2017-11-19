@@ -16,3 +16,8 @@ I actively write on Quora majorly about Computer Programming, GitHub, Git, Swift
 I am Joint Secretary of Club of Economics and Finanace, IIT(BHU) Varanasi for session 2017-2018. I am active member of this club since last two years, successfully organized many events inside campus and participated in other IIT's fests events.
 
 I'm available for remote work - if you would like to build something together!
+
+### Skills
+- Web Designing Skills:
+- Programming Skills:
+- Technologies:
