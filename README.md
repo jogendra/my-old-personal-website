@@ -18,6 +18,6 @@ I am Joint Secretary of Club of Economics and Finanace, IIT(BHU) Varanasi for se
 I'm available for remote work - if you would like to build something together!
 
 ### Skills
-- Web Designing Skills:
+- Web Designing Skills: HTML, CSS(Bootstrap), Javascript(jQuery, Angular), SQL
 - Programming Skills:
 - Technologies:
