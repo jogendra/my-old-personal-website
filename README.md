@@ -20,4 +20,4 @@ I'm available for remote work - if you would like to build something together!
 ### Skills
 - Web Designing Skills: HTML, CSS(Bootstrap), Javascript(jQuery, Angular), SQL
 - Programming Skills: Swift, C#, Python, C/C++, Shell
-- Technologies:
+- Technologies: Git, Xcode, Django, Microsoft Visual Studio, Microsoft SQL Server
