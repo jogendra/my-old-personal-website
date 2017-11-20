@@ -21,3 +21,6 @@ I'm available for remote work - if you would like to build something together!
 - Web Designing Skills: HTML, CSS(Bootstrap), Javascript(jQuery, Angular), SQL
 - Programming Skills: Swift, C#, Python, C/C++, Shell
 - Technologies: Git, Xcode, Django, Microsoft Visual Studio, Microsoft SQL Server
+
+### Projects
+#### Eat Sleep Poop App
