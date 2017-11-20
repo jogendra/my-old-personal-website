@@ -1,7 +1,7 @@
-## Jogendra Singh - http://jogendrasingh.me
+# Jogendra Singh - http://jogendrasingh.me
 My Portfolio (Under construction). http://jogendrasingh.me
 
-### About Me
+## About Me
 — I am a Third Year Integrated Dual Degree(B.Tech and M.Tech) student majoring Engineering Physics student at IIT(BHU), Varanasi. My major areas of interest are Web Development, iOS Development, Shell Scripting, Data Structure and Algorithms. I have also been exploring lately Server-Side-Swift, Django framework.
 
 I am passionate about Open Source. I have good experience with GIT technology. I am actively open source contributor since Jan. 2017. My more than 10 projects are Open Source. I have been actively written documentation for new contributors. I have been contributed in big Organizations like FOSSASIA, IBM, IBM-Swift, Catrobat, wxWidgets, awesome-ios etc.
@@ -17,10 +17,10 @@ I am Joint Secretary of Club of Economics and Finanace, IIT(BHU) Varanasi for se
 
 I'm available for remote work - if you would like to build something together!
 
-### Skills
+## Skills
 - Web Designing Skills: HTML, CSS(Bootstrap), Javascript(jQuery, Angular), SQL
 - Programming Skills: Swift, C#, Python, C/C++, Shell
 - Technologies: Git, Xcode, Django, Microsoft Visual Studio, Microsoft SQL Server
 
-### Projects
+## Projects
 #### Eat Sleep Poop App
