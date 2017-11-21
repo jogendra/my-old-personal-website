@@ -27,6 +27,10 @@ I'm available for remote work - if you would like to build something together!
 Eat Sleep Poop App is a simple logging app for parents of a newborn so they can monitor their babies health by tracking such things as breast feedings, poop, medications, vaccines and more. And best of all, it’s easy for parents to share their child’s profile with their pediatrician so she can view the child’s logs in her own Eat Sleep Poop App.
 
 #### 2. Technex 2017 Website
+Technex is the annual techno-management festival of Indian Institute of Technology, Banaras Hindu University, Varanasi, India.
+
+Front-end development for technex 2017 official website http://technex.in
+
 #### 3. Technex 2018 iOS App
 #### 4. Spardha 2017 Website
 #### 5. JSButton
