@@ -32,6 +32,8 @@ Technex is the annual techno-management festival of Indian Institute of Technolo
 Front-end development for technex 2017 official website http://technex.in
 
 #### 3. Technex 2018 iOS App
+iOS App for technex 2018. `Unfinishes Project`
+
 #### 4. Spardha 2017 Website
 #### 5. JSButton
 #### 6. JSLabel
