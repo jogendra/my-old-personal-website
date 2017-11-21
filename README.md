@@ -24,3 +24,8 @@ I'm available for remote work - if you would like to build something together!
 
 ## Projects
 #### Eat Sleep Poop App
+#### Technex 2017 Website
+#### Technex 2018 iOS App
+#### Spardha 2017 Website
+#### JSButton
+#### JSLabel
