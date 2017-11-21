@@ -23,9 +23,9 @@ I'm available for remote work - if you would like to build something together!
 - Technologies: Git, Xcode, Django, Microsoft Visual Studio, Microsoft SQL Server
 
 ## Projects
-#### Eat Sleep Poop App
-#### Technex 2017 Website
-#### Technex 2018 iOS App
-#### Spardha 2017 Website
-#### JSButton
-#### JSLabel
+#### 1. Eat Sleep Poop App
+#### 2. Technex 2017 Website
+#### 3. Technex 2018 iOS App
+#### 4. Spardha 2017 Website
+#### 5. JSButton
+#### 6. JSLabel
