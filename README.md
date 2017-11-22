@@ -35,5 +35,9 @@ Front-end development for technex 2017 official website http://technex.in
 iOS App for technex 2018. `Unfinishes Project`
 
 #### 4. Spardha 2017 Website
+Spardha is the Annual All India Games & Sports Festival of IIT (BHU) Varanasi.
+
+Front-end development for Spardha 2017 official website http://spardha.co.in
+
 #### 5. JSButton
 #### 6. JSLabel
