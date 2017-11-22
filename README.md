@@ -40,4 +40,6 @@ Spardha is the Annual All India Games & Sports Festival of IIT (BHU) Varanasi.
 Front-end development for Spardha 2017 official website http://spardha.co.in
 
 #### 5. JSButton
+A fully customisable swift subclass on UIButton which allows you to create beautiful buttons without writing any line of code.
+
 #### 6. JSLabel
