@@ -11,16 +11,16 @@ I developed many front-end web applications. All web applications are responsive
 
 I did my Summer 2017 internship at Vertex Infosoft working with C-Sharp MVC technology, Windows and Web Forms, PDF Controls and Optical Character Recognition.
 
-I actively write on Quora majorly about Computer Programming, GitHub, Git, Swift(programming language), iOS Application Development, iOS, Open Source and many more topics. I am most viewd writer in Swift(programming language) and GitHub topic.
+I actively write on Quora majorly about Computer Programming, GitHub, Git, Swift(programming language), iOS Application Development, iOS, Open Source and many more topics.
 
 I am Joint Secretary of Club of Economics and Finanace, IIT(BHU) Varanasi for session 2017-2018. I am active member of this club since last two years, successfully organized many events inside campus and participated in other IIT's fests events.
 
 I'm available for remote work - if you would like to build something together!
 
 ## Skills
-- Web Designing Skills: HTML, CSS(Bootstrap), Javascript(jQuery, Angular), SQL
-- Programming Skills: Swift, C#, Python, C/C++, Shell
-- Technologies: Git, Xcode, Django, Microsoft Visual Studio, Microsoft SQL Server
+- **Web Designing Skills:** HTML, CSS(Bootstrap), Javascript(jQuery, Angular), SQL
+- **Programming Skills:** Swift, C#, Python, C/C++, Shell
+- **Technologies:** Git, Xcode, Django, Microsoft Visual Studio, Microsoft SQL Server
 
 ## Projects
 #### 1. Eat Sleep Poop App
