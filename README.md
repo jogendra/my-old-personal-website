@@ -43,3 +43,4 @@ Front-end development for Spardha 2017 official website http://spardha.co.in
 A fully customisable swift subclass on UIButton which allows you to create beautiful buttons without writing any line of code.
 
 #### 6. JSLabel
+A simple designable subclass on UILabel with extra IBDesignable and Blinking features.
