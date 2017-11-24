@@ -23,7 +23,7 @@ I'm available for remote work - if you would like to build something together!
 - **Technologies:** Git, Xcode, Django, Microsoft Visual Studio, Microsoft SQL Server
 
 ## Projects
-#### 1. Eat Sleep Poop App
+#### 1. Eat Sleep Poop App ([App Store Link](https://itunes.apple.com/us/app/eat-sleep-poop-app/id1058610570?mt=8))
 Eat Sleep Poop App is a simple logging app for parents of a newborn so they can monitor their babies health by tracking such things as breast feedings, poop, medications, vaccines and more. And best of all, it’s easy for parents to share their child’s profile with their pediatrician so she can view the child’s logs in her own Eat Sleep Poop App.
 
 #### 2. Technex 2017 Website
