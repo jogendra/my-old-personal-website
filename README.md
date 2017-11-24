@@ -42,5 +42,5 @@ Front-end development for Spardha 2017 official website http://spardha.co.in
 #### 5. JSButton ([Source Code](https://github.com/imjog/JSButton))
 A fully customisable swift subclass on UIButton which allows you to create beautiful buttons without writing any line of code.
 
-#### 6. JSLabel ([Source Code]())
+#### 6. JSLabel ([Source Code](https://github.com/imjog/JSLabel))
 A simple designable subclass on UILabel with extra IBDesignable and Blinking features.
