@@ -309,7 +309,7 @@ function parallax() {
 
   $('.parallax').each(function() {
     var offset = $(this).offset().top;
-    var distanceFromBottom = offset - scroll - screenHeight
+    //var distanceFromBottom = offset - scroll - screenHeight
 
     if (offset > screenHeight && offset) {
       $(this).css('background-position', 'center ' + (( distanceFromBottom  ) * 0.5) +'px');
