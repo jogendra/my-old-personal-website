@@ -14,7 +14,7 @@
       font-weight: 400;
 }
 .blog-container-div{
-  top: 50%;
+  top: 25%;
   position: relative;
 }
 .blog-container-div img{
@@ -22,4 +22,13 @@
     display: table;
     border: 1px solid white;
     border-radius: 50%;
+}
+.blog-foot-tags{
+  display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.blog-foot-tags p{
+  font-size: 120%;
+    letter-spacing: 1px;
 }
