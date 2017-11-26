@@ -1,8 +1,9 @@
 .main-landing-blog {
   background-color: rgba(0,0,0,.7);
-  background-image: url(../images/jogendrasingh.jpg);
+  background-image: url(../images/blog-page-bcg.jpg);
   background-blend-mode: multiply;
   background-attachment: fixed;
+  background-size: contain;
   height: 400px;
   width: 100%;
   color: #999;
