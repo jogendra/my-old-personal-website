@@ -8,3 +8,10 @@
   width: 100%;
   color: #999;
 }
+.blog-heading{
+
+}
+.blog-container-div{
+top: 50%;
+position: relative;
+}
