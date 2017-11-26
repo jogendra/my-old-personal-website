@@ -9,9 +9,17 @@
   color: #999;
 }
 .blog-heading{
-
+      text-align: center;
+      letter-spacing: 2px;
+      font-weight: 400;
 }
 .blog-container-div{
-top: 50%;
-position: relative;
+  top: 50%;
+  position: relative;
+}
+.blog-container-div img{
+  margin: auto;
+    display: table;
+    border: 1px solid white;
+    border-radius: 50%;
 }
