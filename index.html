@@ -55,7 +55,7 @@
       <li class="active"><a href="#">Home</a></li>
       <li><a href="#about-me-section">About Me</a></li>
       <li><a href="#projects-section">Projects</a></li>
-      <li><a href="#blogs-section">Blogs</a></li>
+      <!-- <li><a href="#blogs-section">Blogs</a></li> -->
       <li><a href="jogendra_intern_resume05.pdf">Resume</a></li>
     </ul>
 </div>
@@ -162,7 +162,7 @@ I'm available for remote work - if you would like to build something together!
 
 
 <!-- Blogs container -->
-<div class="container blogs" id="blogs-section">
+<!-- <div class="container blogs" id="blogs-section">
 <h3 class="section-header">Blogs</h3>
 <hr class="section-hr">
 <div class="blogs_div">
@@ -248,7 +248,7 @@ I'm available for remote work - if you would like to build something together!
 </div>
 <a href="#home-section"><i class="fa fa-angle-double-up" aria-hidden="true" style="font-size:36px"></i></a>
 <hr class="section-end-hr">
-</div>
+</div> -->
 <!-- \Blogs container -->
 
   <!-- Javascript files -->
@@ -298,26 +298,5 @@ $("a").on('click', function(event) {
 </script>
 <!-- Parallax Effect -->
 <script>
-$(window).scroll(function(e) {
-  parallax();
-})
-
-
-function parallax() {
-  var scroll = $(window).scrollTop();
-  var screenHeight = $(window).height();
-
-  $('.parallax').each(function() {
-    var offset = $(this).offset().top;
-    var distanceFromBottom = offset - scroll - screenHeight;
-
-    if (offset > screenHeight && offset) {
-      $(this).css('background-position', 'center ' + (( distanceFromBottom  ) * 0.5) +'px');
-    } else {
-      $(this).css('background-position', 'center ' + (( -scroll ) * 0.5) + 'px');
-    }
-  })
-}
-</script>
 </body>
 </html>
