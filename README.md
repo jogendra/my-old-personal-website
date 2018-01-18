@@ -2,18 +2,17 @@
 My Portfolio (Under construction). http://jogendrasingh.me
 
 ## About Me
-— I am a Third Year Integrated Dual Degree(B.Tech and M.Tech) student majoring Engineering Physics student at IIT(BHU), Varanasi. My major areas of interest are Web Development, iOS Development, Shell Scripting, Data Structure and Algorithms. I have also been exploring lately Server-Side-Swift, Django framework.
+— I am a Third Year Integrated Dual Degree(B.Tech and M.Tech) student majoring Engineering Physics at IIT(BHU), Varanasi. My major areas of interest are Web Development, iOS Development, Shell Scripting, Open Source, Data Structure and Algorithms. I have also been exploring lately Server-Side-Swift, Django framework. 
 
-I am passionate about Open Source. I have good experience with GIT technology. I am actively open source contributor since Jan. 2017. My more than 10 projects are Open Source. I have been actively written documentation for new contributors. I have been contributed in big Organizations like FOSSASIA, IBM, IBM-Swift, Catrobat, wxWidgets, awesome-ios etc.
+I am passionate about Open Source. I have good experience with GIT technology. I am actively open source contributor since Jan. 2017. My more than 10 projects are Open Source. I have been contributed to big GitHub repositories like IBM, FOSSASIA, Oppia, Catrobat, wxWidgets, IBM-Swift, awesome-ios etc. 
 
-Earlier, I used to be involved in Web Development and iOS Development. I enjoy each aspect, and love building sites & mobile apps from start to finish.
-I developed many front-end web applications. All web applications are responsive. I Developed small iOS apps which are available on my GitHub account for learning purpose. I have been created two Cocoapods. I am also working on iOS projects remotely.
+Earlier, I used to be involved in Web Development. I enjoy each aspect, and love building sites & mobile apps from start to finish. I developed many front-end web applications. All web applications are responsive. Two of my iOS apps are available on App Store. I also Developed small iOS apps which are available on my GitHub account for learning purpose. I have been created two Cocoapods. 
 
-I did my Summer 2017 internship at Vertex Infosoft working with C-Sharp MVC technology, Windows and Web Forms, PDF Controls and Optical Character Recognition.
+I did my Summer 2017 internship at Vertex Infosoft working with C-Sharp MVC technology, Windows and Web Forms, PDF Controls and Optical Character Recognition. 
 
-I actively write on Quora majorly about Computer Programming, GitHub, Git, Swift(programming language), iOS Application Development, iOS, Open Source and many more topics.
+I did my Winter 2017 internship at Wheelstreet, Banglore. I effectively designed and implemented the iOS app for Wheelstreet – GO. I worked on Swift 4 during the internship period and successfully completed the User Registration, Google Map Screen, User Profile and Booking and few other modules. 
 
-I am Joint Secretary of Club of Economics and Finanace, IIT(BHU) Varanasi for session 2017-2018. I am active member of this club since last two years, successfully organized many events inside campus and participated in other IIT's fests events.
+I am Joint Secretary of Club of Economics and Finance, IIT(BHU) Varanasi for session 2017-2018. I am an active member of this club since last two years, successfully organized many events inside the campus and participated in other IIT's fests events. 
 
 I'm available for remote work - if you would like to build something together!
 
