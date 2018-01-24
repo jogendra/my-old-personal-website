@@ -34,5 +34,9 @@
 }
 
 .blog-content-section {
-  
+    width: 50%;
+    margin: auto;
+    background-color: #fbfbfb;
+    border: 1px solid;
+    padding: 2%;
 }
