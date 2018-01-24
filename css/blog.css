@@ -45,3 +45,17 @@
     font-size: 170%;
     letter-spacing: 1px;
 }
+
+.blog-content-section span {
+}
+
+.blog-content-section a {
+  color: blue;
+}
+.blog-content-section ol {
+}
+
+.blog-content-section ol li {
+  font-size: 170%;
+    letter-spacing: 1px;
+}
