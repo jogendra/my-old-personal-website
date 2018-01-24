@@ -80,7 +80,7 @@ hr {
 }
 .author-image-div, .author-desc-div {
   padding: 2%;
-  font-size: 120%;
+  font-size: 110%;
 }
 .author-image-div img {
   border: 2px solid #9a9a9a;
@@ -90,4 +90,10 @@ border-radius: 50%;
 .outer-layer-div {
   width: 50%;
   margin: 0 auto;
+}
+.social-icons a {
+  color: #000;
+}
+.social-icons a:hover {
+  color: #999;
 }
