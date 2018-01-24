@@ -1,3 +1,6 @@
+body {
+  background-color: #fbfbfb;
+}
 .main-landing-blog {
   background-color: rgba(0,0,0,.7);
   background-image: url(../images/blog-page-bcg.jpg);
@@ -34,15 +37,15 @@
 }
 
 .blog-content-section {
-    width: 50%;
+    width: 75%;
     margin: auto;
     background-color: #fbfbfb;
-    border: 1px solid #eaeaea;
+    border: 1px solid #e0e0e0;
     padding: 2%;
 }
 
 .blog-content-section p {
-    font-size: 170%;
+    font-size: 125%;
     letter-spacing: 1px;
 }
 
@@ -56,6 +59,12 @@
 }
 
 .blog-content-section ol li {
-  font-size: 170%;
+  font-size: 125%;
     letter-spacing: 1px;
+}
+.blog-shell-code {
+    background-color: #dddddd;
+    border-radius: 2px;
+    padding: 1%;
+    width: 75%;
 }
