@@ -34,5 +34,14 @@
 }
 
 .blog-content-section {
-  
+    width: 50%;
+    margin: auto;
+    background-color: #fbfbfb;
+    border: 1px solid #eaeaea;
+    padding: 2%;
+}
+
+.blog-content-section p {
+    font-size: 170%;
+    letter-spacing: 1px;
 }
