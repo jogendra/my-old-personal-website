@@ -69,9 +69,9 @@
     <h2 class="blog-heading">One Where my Mac's Command+V Stopped Working</h2>
 <hr style="margin-bottom:12px;border-top:1px solid rgba(255,255,255,0.4)">
     <div class="blog-foot-tags">
-      <p><i class="fa fa-calendar" aria-hidden="true"></i> &nbsp; 05 March, 2018</p>
+      <p><i class="fa fa-calendar" aria-hidden="true"></i> &nbsp; 24 January, 2018</p>
       <p><i class="fa fa-coffee" aria-hidden="true"></i> &nbsp; Jogendra Singh</p>
-      <p><i class="fa fa-tags" aria-hidden="true"></i>  &nbsp;Xcode, Swift, iOS</p>
+      <p><i class="fa fa-tags" aria-hidden="true"></i>  &nbsp;MacOS, OS, OSX</p>
     </div>
   </div>
   </section>
@@ -96,6 +96,32 @@ I usually don’t shut down my mac for 2 to 3 days; I always put it on Sleep mod
           <li>Wait five seconds, then press the power button to turn on the computer.</li>
         </ol>
         <p>This isn’t work. Problem was still there :(</p>
+      </p>
+      <p>
+        <span><b>Approach 2:</b></span><br>
+        I tried to stop running pboard daemon and then start running again -
+        <p class="blog-shell-code">$ launchctl stop com.apple.pboard<br>
+          $ launchctl start com.apple.pboard
+        </p>
+        <p>this also doesn’t work.</p>
+      </p>
+      <p>
+        <span><b>Approach 3:</b></span><br>
+        Somewhere I read&nbsp;this solution -
+        <ol>
+          <li>From the Apple menu, select System Preferences.</li>
+          <li>Select <b>Keyboard</b>.</li>
+          <li>Click the <b>Keyboard</b> tab.</li>
+          <li>Click the <b>Modifier Keys...</b> button. The window shown below appears.</li>
+          <li>From the <b>Command Key</b> menu, select <b>Control</b>. This lets Mac OS X know that you'll be using the control key as the primary modifier.</li>
+          <li>Click <b>OK</b>.</li>
+          <li>Close System Preferences.</li>
+        </ol>
+      </p>
+      <p>
+        This solution also doesn’t work. So <b>I shut down my mac and open it next day and I found that my Command+V is working properly</b>. Peace!<br>
+If your paste command stop working then try above approaches, may be one of them fix your problem.<br>
+Thank you for reading :)
       </p>
     </div>
 </section>
