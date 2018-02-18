@@ -97,3 +97,7 @@ border-radius: 50%;
 .social-icons a:hover {
   color: #999;
 }
+
+.about-the-author {
+  font-size: 100%;
+}
