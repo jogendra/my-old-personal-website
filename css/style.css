@@ -123,7 +123,7 @@ a:hover{
 }
 }
 .navbar-inverse{
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: black;
   text-transform: uppercase;
     letter-spacing: 1px;
 }
