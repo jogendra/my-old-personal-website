@@ -9,7 +9,7 @@ a:hover{
 }
 .landing-page{
     background-color: rgba(0,0,0,.8);
-    background-image: url(../images/jogendrasingh.jpg);
+    background-image: url(../images/cover-pic.jpg);
     background-blend-mode: multiply;
     background-attachment: fixed;
     height: 100vh;
