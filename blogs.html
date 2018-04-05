@@ -703,10 +703,13 @@
 		</script>
 		<script>
 		$('.grid__item').click(function () {
-    // window.location.hash = 'xyz';
 		window.history.pushState('obj', 'newtitle', '/abc');
-   return false;
-});
+   		return false;
+		});
+		$('.close-button').click(function () {
+		window.history.pushState('obj', 'newtitle', '');
+   		return false;
+		});
 		</script>
 	</body>
 </html>
