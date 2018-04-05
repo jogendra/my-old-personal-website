@@ -703,11 +703,11 @@
 		</script>
 		<script>
 		$('.grid__item').click(function () {
-		window.history.pushState('obj', 'newtitle', 'blogs/abc');
+		window.history.href('obj', 'newtitle', 'blogs/abc');
    		return false;
 		});
 		$('.close-button').click(function () {
-		window.history.pushState('obj', 'newtitle', 'blogs/');
+		window.history.href('obj', 'newtitle', '/blogs');
    		return false;
 		});
 		</script>
