@@ -1579,3 +1579,17 @@
 .pagination li a:focus, .pagination li a:hover, .pagination li span:focus, .pagination li span:hover {
 	border-color: black;
 }
+a:hover {
+	text-decoration: none;
+}
+
+.pagination .disabled a, .pagination .disabled a:focus, .pagination .disabled a:hover, .pagination .disabled span, .pagination .disabled span:focus, .pagination .disabled span:hover {
+	color: #444444;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 1px solid #444444;
+		font-size: 30px;
+}
+.pagination .disabled span, .pagination .disabled span:focus, .pagination .disabled span:hover {
+	border: none;
+}
