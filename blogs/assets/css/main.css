@@ -1549,3 +1549,33 @@
 				}
 
 		}
+
+		/* Modifications */
+
+		.author_image {
+			border: 1px solid #444444;
+    border-radius: 50%;
+    padding: 5px;
+		}
+.pagination {
+	display: table;
+    padding-left: 0;
+    margin: 20px auto;
+    border-radius: 4px;
+}
+
+.pagination li span {
+	font-size: 30px:
+}
+
+.pagination li a {
+	color: #444444;
+    text-decoration: none;
+    background-color: #ffffff;
+    border: 1px solid #444444;
+		font-size: 30px;
+}
+
+.pagination li a:focus, .pagination li a:hover, .pagination li span:focus, .pagination li span:hover {
+	border-color: black;
+}
