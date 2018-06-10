@@ -49,3 +49,5 @@ A fully customisable swift subclass on UIButton which allows you to create beaut
 
 #### 6. JSLabel ([Source Code](https://github.com/imjog/JSLabel))
 A simple designable subclass on UILabel with extra IBDesignable and Blinking features.
+
+#### 7. AnimatedMaskLabel
