@@ -1617,4 +1617,9 @@ a:hover {
 letter-spacing: 2px;
 font-weight: 500;
 border-bottom: 1px solid;
+text-align: center;
+}
+
+.nav li {
+	display: inline-block;
 }
