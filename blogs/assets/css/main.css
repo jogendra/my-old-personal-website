@@ -1560,12 +1560,12 @@
 .pagination {
 	display: table;
     padding-left: 0;
-    margin: 20px auto;
+    margin: 0 auto;
     border-radius: 4px;
 }
 
 .pagination li span {
-	font-size: 30px:
+	font-size: 24px:
 }
 
 .pagination li a {
@@ -1573,7 +1573,11 @@
     text-decoration: none;
     background-color: #ffffff;
     border: 1px solid #444444;
-		font-size: 30px;
+		font-size: 24px;
+}
+
+.pagination li {
+	display: table-cell;
 }
 
 .pagination li a:focus, .pagination li a:hover, .pagination li span:focus, .pagination li span:hover {
@@ -1588,7 +1592,7 @@ a:hover {
     text-decoration: none;
     background-color: #ffffff;
     border: 1px solid #444444;
-		font-size: 30px;
+		font-size: 24px;
 }
 .pagination .disabled span, .pagination .disabled span:focus, .pagination .disabled span:hover {
 	border: none;

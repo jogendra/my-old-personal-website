@@ -1,3 +1,6 @@
+@import url(font-awesome.min.css);
+@import url("https://fonts.googleapis.com/css?family=Pacifico|Source+Sans+Pro:200,400");
+
 body{
   background-color: transparent;
 }
@@ -8,8 +11,8 @@ a:hover{
   color:#fff;
 }
 .landing-page{
-    background-color: rgba(0,0,0,.8);
-    background-image: url(../images/cover-pic.jpg);
+    /* background-color: rgba(0,0,0,.8); */
+    background-image: url(../images/banner.jpg);
     background-blend-mode: multiply;
     background-attachment: fixed;
     height: 100vh;
@@ -19,7 +22,7 @@ a:hover{
 }
 @media screen and (max-width:768px){
   .landing-page{
-  background-image: url(../images/jogendrasingh-mob.jpg);
+  background-image: url(../images/banner-mob.jpg);
 }
 }
 .title-name{
@@ -106,6 +109,9 @@ a:hover{
     font-size: 2em;
     padding: 2px;
   }
+  .social-icons a {
+    color: rgba(255,255,255,0.8);
+  }
 }
 /* ABOUT ME SECTION */
 .about-me{
@@ -123,7 +129,7 @@ a:hover{
 }
 }
 .navbar-inverse{
-  background-color: black;
+  background-color: rgba(0,0,0,0.2);
   text-transform: uppercase;
     letter-spacing: 1px;
 }
@@ -362,9 +368,19 @@ width: 33.333%;
 }
 
 .title-image {
-    border: 2px solid white;
-    border-radius: 50%;
-    margin: 0 auto;
-    display: table;
-    padding: 2px;
+  border: 3px solid rgba(255,255,255,0.5);
+  border-radius: 50%;
+  margin: 0 auto;
+  display: table;
+  padding: 3px;
+}
+
+.tag-name {
+  color: #ffffff;
+  letter-spacing: 2px;
+  font-family: "Pacifico", cursive;
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: rgba(255,255,255,0.9);
 }
