@@ -1623,3 +1623,13 @@ text-align: center;
 .nav li {
 	display: inline-block;
 }
+
+.into_lines {
+	padding-left: 10%;
+    padding-right: 10%;
+    text-align: justify;
+}
+
+.into_lines a {
+	text-decoration: underline;
+}
