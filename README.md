@@ -1,7 +1,7 @@
 # Jogendra Singh - http://jogendrasingh.me
 My Portfolio. http://jogendrasingh.me or https://imjog.github.io
 
-## About Me
+<!-- ## About Me
 
 — I am a Engineering Undergraduate student at Indian Institute of Technology (Banaras Hindu University), Varanasi. I’m eager to learn, proactive, meticulous and I love nothing more than working with people, building amazing software and solving technical problems. My major areas of interest are Web Development, iOS Development, Shell Scripting, Open Source, Data Structure and Algorithms. I have also been exploring lately Server-Side-Swift, Django framework.
 
@@ -51,3 +51,4 @@ A fully customisable swift subclass on UIButton which allows you to create beaut
 A simple designable subclass on UILabel with extra IBDesignable and Blinking features.
 
 #### 7. AnimatedMaskLabel
+-->
