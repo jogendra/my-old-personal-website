@@ -1633,5 +1633,5 @@ text-align: center;
 }
 
 .into_lines a {
-	text-decoration: underline;
+	font-weight: 400;
 }
