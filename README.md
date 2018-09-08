@@ -1,5 +1,5 @@
 # Jogendra Singh - http://jogendrasingh.me
-My Portfolio. http://jogendrasingh.me or https://imjog.github.io
+My Portfolio. http://jogendrasingh.me or https://jogendra.github.io
 
 <!-- ## About Me
 
@@ -39,12 +39,12 @@ Front-end development for technex 2017 official website http://technex.in
 #### 3. Technex 2018 iOS App ([Source Code](https://github.com/imjog/technex-ios))
 iOS App for technex 2018. `Unfinished Project`
 
-#### 4. Spardha 2017 Website ([Source Code](https://github.com/imjog/spardhaUser))
+#### 4. Spardha 2017 Website ([Source Code](https://github.com/jogendra/spardhaUser))
 Spardha is the Annual All India Games & Sports Festival of IIT (BHU) Varanasi.
 
 Front-end development for Spardha 2017 official website http://spardha.co.in
 
-#### 5. JSButton ([Source Code](https://github.com/imjog/JSButton))
+#### 5. JSButton ([Source Code](https://github.com/jogendra/JSButton))
 A fully customisable swift subclass on UIButton which allows you to create beautiful buttons without writing any line of code.
 
 #### 6. JSLabel ([Source Code](https://github.com/imjog/JSLabel))
