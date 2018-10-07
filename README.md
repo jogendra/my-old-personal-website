@@ -1,5 +1,5 @@
-# Jogendra Singh - http://jogendrasingh.me
-My Portfolio. http://jogendrasingh.me or https://jogendra.github.io
+# Jogendra Singh - https://jogendra.gtihub.io
+My Portfolio https://jogendra.github.io
 
 <!-- ## About Me
 
