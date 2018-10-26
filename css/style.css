@@ -412,3 +412,14 @@ width: 33.333%;
 .float-left.text-gray {
   letter-spacing: 1px;
 }
+
+.my-intro {
+  width: 50%;
+  display: table;
+  margin: 1% auto;
+}
+
+.my-intro p {
+  font-size: 1.5em;
+  text-align: justify;
+}
