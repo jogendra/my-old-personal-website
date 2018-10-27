@@ -23,7 +23,7 @@ a:hover{
 @media screen and (max-width:768px){
   .landing-page{
   background-image: url(../images/banner-mob.jpg);
-  height: 120vh;
+  height: 122vh;
 }
 }
 .title-name{
@@ -95,7 +95,7 @@ a:hover{
 /* Social Icons*/
 .social-icons{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-direction: row;
 }
 .social-icons a{
@@ -115,6 +115,9 @@ a:hover{
   .social-icons a {
     color: rgba(255,255,255,0.8);
   }
+  .social-icons{
+    justify-content: space-evenly;
+}
 }
 /* ABOUT ME SECTION */
 .about-me{
@@ -434,4 +437,20 @@ width: 33.333%;
   .my-intro p {
     text-align: justify;
   }
+}
+
+.footer-sticky {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.footer-sticky p {
+  font-family: "Pacifico", cursive;
+  font-weight: 100;
+  letter-spacing: 1px;
+  color: #ccc;
 }
