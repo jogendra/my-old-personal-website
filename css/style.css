@@ -23,6 +23,7 @@ a:hover{
 @media screen and (max-width:768px){
   .landing-page{
   background-image: url(../images/banner-mob.jpg);
+  height: 120vh;
 }
 }
 .title-name{
