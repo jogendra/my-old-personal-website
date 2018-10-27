@@ -46,11 +46,13 @@ a:hover{
   letter-spacing: 2px;
   text-transform: uppercase;
   font-weight: 300;
+  display: none;
 }
 @media screen and (min-width:768px){
   .title-name h4{
     font-size: 100%;
     letter-spacing: 5px;
+    display: block;
   }
 }
 .title-name hr{
@@ -92,7 +94,7 @@ a:hover{
 /* Social Icons*/
 .social-icons{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-direction: row;
 }
 .social-icons a{
@@ -414,12 +416,21 @@ width: 33.333%;
 }
 
 .my-intro {
-  width: 50%;
+  width: 80%;
   display: table;
   margin: 1% auto;
 }
 
 .my-intro p {
   font-size: 1.5em;
-  text-align: justify;
+  text-align: inherit;
+}
+
+@media screen and (min-width:768px){
+  .my-intro {
+    width: 50%;
+  }
+  .my-intro p {
+    text-align: justify;
+  }
 }
